@@ -5,7 +5,7 @@ We reproduced [Flamingo](https://huggingface.co/papers/2204.14198), an 80 billio
 This knowledge-sharing memo follows [a previous one](https://docs.google.com/document/d/1ZNGyVWYFUbzV0xuei4SED2QAakGjMpaaQALcKYQm46U) we shared a few months ago which was mainly focused on lessons we learned from stabilizing our training at medium scale.
 In this second memo, we try to capture lessons from scaling to 80 billion parameters and training the model, mistakes we've made, and remaining open questions. This is not meant to be exhaustive, nor chronological, but presents a snapshot of our take-aways while laying the ground for the next steps. We suspect that some of the mistakes and difficulties we encountered limited the performance we reached.
 
-Our 80 billion parameters model called [IDEFICS](https://huggingface.co/HuggingFaceM4/idefics-80b), is on par with the original closed-source Flamingo, and is built solely on top of openly accessible models and data. You can play with IDEFICS here (TODO: link to demo). For more details about the model itself, its performance and construction, we refer to the [model card](https://huggingface.co/HuggingFaceM4/idefics-80b).
+Our 80 billion parameters model called [IDEFICS](https://huggingface.co/HuggingFaceM4/idefics-80b), is on par with the original closed-source Flamingo, and is built solely on top of openly accessible models and data. You can play with IDEFICS on the [demo](https://huggingface.co/spaces/HuggingFaceM4/idefics_playground). For more details about the model itself, its performance and construction, we refer to the [model card](https://huggingface.co/HuggingFaceM4/idefics-80b).
 
 ## The rollercoaster of training an 80 billion parameters
 
